@@ -2,7 +2,10 @@
   "name": "hifi-trendz",
   "version": "1.0.0",
   "scripts": {
-    "dev": "concurrently \"vite\" \"nodemon server/server.js\""
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "dev": "next dev"
   },
   "dependencies": {
     "cors": "^2.8.5",

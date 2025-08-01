@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, Loader2, CheckCircle } from 'lucide-react';
+import Link from 'next/link';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
