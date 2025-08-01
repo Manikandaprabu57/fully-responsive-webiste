@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',  // For static deployment
+  output: 'export',
+  basePath: '/fully-responsive-webiste',
   images: {
-    unoptimized: true,  // For static export
+    unoptimized: true,
   },
-  basePath: '', // Add your base path if hosting in a subdirectory
-  trailingSlash: true, // Recommended for static exports
+  assetPrefix: '/fully-responsive-webiste/',
 }
 
 module.exports = nextConfig
