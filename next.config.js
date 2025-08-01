@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/fully-responsive-webiste/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig

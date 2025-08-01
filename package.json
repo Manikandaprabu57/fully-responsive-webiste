@@ -2,10 +2,11 @@
   "name": "hifi-trendz",
   "version": "1.0.0",
   "scripts": {
+    "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export",
     "start": "next start",
-    "dev": "next dev"
+    "export": "next export",
+    "deploy": "next build && next export"
   },
   "dependencies": {
     "cors": "^2.8.5",
